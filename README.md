@@ -38,7 +38,7 @@ Here is an example:
 To test the java files, go through the following steps:
 
 1. Go to the directory where you saved the folder "newmath_java"
-2. Enter "java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path" in the command line
+2. Enter "java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path" in the command line (the junit depends on what you would have in test folder)
 3. It will test the file and here is what the output should be:
 
 ![testing_java_windows](https://user-images.githubusercontent.com/55165910/117217903-36418b00-add0-11eb-8766-f96e32b426d0.png)
