@@ -21,7 +21,7 @@ I am running jar file 'user-registration-app-0.1.0.jar' (in `registration`):
 ```bash
 java -jar  user-registration-app-0.1.0.jar
 ```
-![bin_run_running_registration](assets/bin_run_running_registration.JPG)
+![binrun](assets/binrun.JPG)
 ![localhost](assets/localhost.PNG)
 
 I used the test cases given in the tutorial
