@@ -12,7 +12,7 @@ This is the second laboratory for the course SEG3103.
 
 I am running Java openjdk 11
 
-![java_version](assets/java_version.JPG)
+![javaversion](assets/javaversion.JPG)
 
 ## Exercise 1:
 
