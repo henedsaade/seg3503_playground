@@ -60,6 +60,6 @@ bin/test
 
 Here is the result:
 
-![bin_test_ex02](assets/bin_test_ex02.JPG)
-![bin_test_ex02_after_adding_tests_p1](assets/bin_test_ex02_after_adding_tests_p1.JPG)
-![bin_test_ex02_after_adding_tests_p2](assets/bin_test_ex02_after_adding_tests_p2.JPG)
+![testing1](assets/testing1.JPG)
+![testing21](assets/testing21.JPG)
+![testing22](assets/testing22.JPG)
