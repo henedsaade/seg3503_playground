@@ -60,6 +60,6 @@ bin/test
 
 Here is the result:
 
-![testing1](assets/testing1.JPG)
+![testing](assets/testing.JPG)
 ![testing21](assets/testing21.JPG)
 ![testing22](assets/testing22.JPG)
