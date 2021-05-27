@@ -60,6 +60,6 @@ bin/test
 
 Here is the result:
 
-![testing](assets/testing.JPG)
-![testing21](assets/testing21.JPG)
-![testing22](assets/testing22.JPG)
+![testing](https://user-images.githubusercontent.com/55165910/119901462-f1fb6380-bf13-11eb-8f07-09cce490a69a.jpg)
+![testing21](https://user-images.githubusercontent.com/55165910/119901475-f4f65400-bf13-11eb-9649-7eca25aecb49.jpg)
+![testing22](https://user-images.githubusercontent.com/55165910/119901478-f6c01780-bf13-11eb-9443-a598b1f064af.jpg)
