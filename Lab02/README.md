@@ -12,7 +12,7 @@ This is the second laboratory for the course SEG3103.
 
 I am running Java openjdk 11
 
-![java_version](assets/java_version.PNG)
+![java_version](assets/java_version.JPG)
 
 ## Exercise 1:
 
@@ -21,7 +21,7 @@ I am running jar file 'user-registration-app-0.1.0.jar' (in `registration`):
 ```bash
 java -jar  user-registration-app-0.1.0.jar
 ```
-![bin_run_running_registration](assets/bin_run_running_registration.PNG)
+![bin_run_running_registration](assets/bin_run_running_registration.JPG)
 ![localhost](assets/localhost.PNG)
 
 I used the test cases given in the tutorial
@@ -60,6 +60,6 @@ bin/test
 
 Here is the result:
 
-![bin_test_ex02](assets/bin_test_ex02.PNG)
-![bin_test_ex02_after_adding_tests_p1](assets/bin_test_ex02_after_adding_tests_p1.PNG)
-![bin_test_ex02_after_adding_tests_p2](assets/bin_test_ex02_after_adding_tests_p2.PNG)
+![bin_test_ex02](assets/bin_test_ex02.JPG)
+![bin_test_ex02_after_adding_tests_p1](assets/bin_test_ex02_after_adding_tests_p1.JPG)
+![bin_test_ex02_after_adding_tests_p2](assets/bin_test_ex02_after_adding_tests_p2.JPG)
