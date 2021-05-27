@@ -21,7 +21,7 @@ I am running jar file 'user-registration-app-0.1.0.jar' (in `registration`):
 ```bash
 java -jar  user-registration-app-0.1.0.jar
 ```
-![runningreg](runningreg.JPG)
+![runningreg](https://user-images.githubusercontent.com/55165910/119901397-dbeda300-bf13-11eb-9638-761737c6f2f6.jpg)
 ![localhost](assets/localhost.PNG)
 
 I used the test cases given in the tutorial
