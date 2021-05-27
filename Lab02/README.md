@@ -10,9 +10,9 @@
 
 This is the second laboratory for the course SEG3103.
 
-I am running Java openjdk 11
+I am running Java openjdk 16.0.1
 
-![javaversion](https://raw.githubusercontent.com/seg3503_playground/Lab02/assets/javaversion.jpg)
+![java](assets/java.jpg)
 
 ## Exercise 1:
 
