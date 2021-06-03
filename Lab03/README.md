@@ -16,9 +16,11 @@ I am running Java openjdk 16.0.1
 
 **Derive a test suite for 100% X coverage for class Date: statement coverage, branch coverage, condition coverage, and condition/branch coverage.**
 
-First, we ran Jacoco against the existing Date tests and observed the coverage.
+First, I ran Jacoco against the existing Date tests and observed the coverage.
 
-*PUT COVERAGE REPORT BEFORE AND DATE COVERAGE BEFORE*
+![Coverage Report Before](https://user-images.githubusercontent.com/55165910/120568633-41dd9d00-c3e2-11eb-8ea3-582da9a0a64a.png)
+
+![Date Coverage Report Before](https://user-images.githubusercontent.com/55165910/120568674-4efa8c00-c3e2-11eb-86e3-9d54a7108a28.png)
 
 To do this we used the following series of commands.  
 
@@ -30,9 +32,11 @@ Ran the agent: `java -javaagent:lib/jacocoagent.jar -jar lib/junit-platform-cons
 
 Generated report: `java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles src --html report`  
 
-Then we added additional tests in the DateTest.java file to achieve better coverage. The following image shows the results we obtained.
+Then we added additional tests in the DateTest.java file to achieve better coverage. The following image shows the results obtained
 
-*PUT COVERAGE REPORT AFTER AND DATE COVERAGE AFTER*
+![Coverage Report After Additional Test Pt1](https://user-images.githubusercontent.com/55165910/120568766-8c5f1980-c3e2-11eb-9275-69498d0d7826.png)
+
+![Coverage Report After Additional Test Pt2](https://user-images.githubusercontent.com/55165910/120568770-8f5a0a00-c3e2-11eb-95ce-f6a9da4a8166.png)
 
 ## Exercise 2
 
@@ -40,27 +44,27 @@ Then we added additional tests in the DateTest.java file to achieve better cover
 
 To refactor Date.java, we decided to make small changes to the methods **setDay()** and **isThirtyDayMonth**. 
 
-Here is the setDay() method before we made any changes : 
+Here is the setDay() method before I made any changes : 
 
-*PUT REFACTOR SETDAY BEFORE*
+![Refactor Before Any Changes setDay](https://user-images.githubusercontent.com/55165910/120568796-a0a31680-c3e2-11eb-936d-d74ce411422b.png)
 
-and here is the setDay() method after we refactored it : 
+and here is the setDay() method after I refactored it : 
 
-*PUT REFACTOR SETDAY AFTER*
+![Refactor After Changes setDay](https://user-images.githubusercontent.com/55165910/120568802-aac51500-c3e2-11eb-9ff4-041c9e514b4a.png)
 
-As for the isThirtyDayMonth method, here is the method before we made any changes : 
+As for the isThirtyDayMonth method, here is the method before I made any changes : 
 
-*PUT REFACTOR ISTHIRTYDAYS BEFORE*
+![Refactor Before Changes isThirtyDayMonth](https://user-images.githubusercontent.com/55165910/120568813-b0225f80-c3e2-11eb-8cab-ef1d1a2aeaf7.png)
 
-and here is the isThirtyDayMonth method after we refactored it :
+and here is the isThirtyDayMonth method after I refactored it :
 
-*PUT REFACTOR ISTHIRTYDAYS AFTER*
+![Refactor After Changes isThirtyDayMonth](https://user-images.githubusercontent.com/55165910/120568823-b6184080-c3e2-11eb-82a5-09d5d95b4f46.png)
 
 NOTE: I did not use the new tests developed from the first exercice when running this coverage just to observe clearly if the refactor did improve the coverage.
 
 Here is the report that was generated after the refactorisation of both methods : 
 
-*PUT REFACTOR COVERAGE REPORT AFTER REFACTORING*
+![Coverage Report After Refactoring](https://user-images.githubusercontent.com/55165910/120568840-bd3f4e80-c3e2-11eb-9cb2-520dd7d2a287.png)
 
 Compared to the very first coverage report in the first exercise, we can see that the coverage for both refactored method improved. setDay() went from 64% instruction coverage to 80% and isThirtyDayMonth went from 87% branch coverage to 100% branch coverage. 
 
