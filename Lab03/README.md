@@ -22,7 +22,7 @@ First, I ran Jacoco against the existing Date tests and observed the coverage.
 
 ![Date Coverage Report Before](https://user-images.githubusercontent.com/55165910/120568674-4efa8c00-c3e2-11eb-86e3-9d54a7108a28.png)
 
-To do this we used the following series of commands.  
+To do this I used the following series of commands.  
 
 Compiled the application: `javac -encoding UTF-8 --source-path src -d dist src/*.java`  
 
