@@ -32,7 +32,7 @@ Ran the agent: `java -javaagent:lib/jacocoagent.jar -jar lib/junit-platform-cons
 
 Generated report: `java -jar lib/jacococli.jar report jacoco.exec --classfiles dist --sourcefiles src --html report`  
 
-Then we added additional tests in the DateTest.java file to achieve better coverage. The following image shows the results obtained
+Then I added additional tests in the DateTest.java file to achieve better coverage. The following image shows the results obtained
 
 ![Coverage Report After Additional Test Pt1](https://user-images.githubusercontent.com/55165910/120568766-8c5f1980-c3e2-11eb-9275-69498d0d7826.png)
 
@@ -42,7 +42,7 @@ Then we added additional tests in the DateTest.java file to achieve better cover
 
 **Refactor Date.java. Run coverage after refactoring.**
 
-To refactor Date.java, we decided to make small changes to the methods **setDay()** and **isThirtyDayMonth**. 
+To refactor Date.java, I decided to make small changes to the methods **setDay()** and **isThirtyDayMonth**. 
 
 Here is the setDay() method before I made any changes : 
 
@@ -70,6 +70,6 @@ Compared to the very first coverage report in the first exercise, we can see tha
 
 The instruction coverage for setDay improved due to having less if statement to test. Initially, this method had 5 if statements and after our refactorisation, it only has 3. This is what makes the instruction coverage change for the better.
 
-As for isThirtyDayMonth, the branch coverage improved due to having less possibilites inside the if statement. Before we made changes, the method had 4 OR statements. Now, it only has to check if the month is part of a list of month that have 30 days. This makes the code a bit cleaner and reduces the number of branches to check while testing.
+As for isThirtyDayMonth, the branch coverage improved due to having less possibilites inside the if statement. Before I made changes, the method had 4 OR statements. Now, it only has to check if the month is part of a list of month that have 30 days. This makes the code a bit cleaner and reduces the number of branches to check while testing.
 
 
