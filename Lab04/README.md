@@ -1,4 +1,4 @@
-# SEG3503 Laboratory 4
+# SEG 3503 Laboratory 4
 
 | Information | Value |
 | --- | --- |
