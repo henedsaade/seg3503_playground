@@ -6,9 +6,11 @@ import java.util.Arrays;
 
 public class TicTest {
 
+
     @Test
-    public void emptyBoardTest(){
-        Tic obj = new Tic();
-        assertEquals(" ", obj.emptyBoard());
+    public void emptyBoardTest1(){
+        Tic actual = new Tic();
+        String[][] expected = {{" "}, {" "}};
+        assertTrue(Arrays.deepEquals(expected, actual.theBoard(1, 2)));
     }
 }
