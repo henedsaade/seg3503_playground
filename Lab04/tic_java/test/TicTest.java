@@ -20,4 +20,11 @@ public class TicTest {
         String[][] expected = {{" "," "}, {" ", " "}};
         assertTrue(Arrays.deepEquals(expected, actual.theBoard(2, 2)));
     }
+
+    @Test
+    public void emptyBoardTest3(){ 
+        Tic actual = new Tic();
+        String[][] expected = {{" ", " ", " "}, {" ", " ", " "}};
+        assertTrue(Arrays.deepEquals(expected, actual.theBoard(3, 2)));
+    }
 }
