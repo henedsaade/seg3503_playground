@@ -8,7 +8,7 @@
 | TA | Aymen Mhamdi |
 | Student | Hened Saade (3000111592) |
 
-This is the sixth laboratory for the course SEG3103.
+This is the sixth laboratory for the course SEG3503.
 
 ## Output of "mvn -version":
 
