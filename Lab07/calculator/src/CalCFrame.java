@@ -34,7 +34,7 @@ class CalCFrame extends JFrame implements ActionListener
                       num1 = 0.0, 
                       num2 = 0.0, 
                       num3 = 0.0;
-  private final int static   ADD=1,        // integer constants representing operators
+  private final static int    ADD=1,        // integer constants representing operators
                       SUB = 2, 
                       MULT = 3, 
                       DIVI = 4, 
@@ -310,7 +310,7 @@ public void processNumbers() {
         firstpress = true;  // if equals is pressed set firstpress to false
     } // end if             
     
-      num3 = Double.valueOf( input ).doubleValue();
+      num3 = Double.parseDouble(input);
       answer = calculate( newoper, answer, num3 );      
       showAnswer( Double.toString(answer) );
       
