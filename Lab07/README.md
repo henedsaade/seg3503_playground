@@ -136,7 +136,7 @@ Image of bug 15-17 fix:
 
 ![bug15_to_17_fix](https://user-images.githubusercontent.com/55165910/126542244-9afdfb7b-23b3-447d-a77e-07bc1d917cbd.png)
 
-The whole block of code is unnecessary since the result is regardless of value of i. So we can either delete the statements or comment them out. 
+The whole block of code is unnecessary since the result is regardless of the value of i. So we can either delete the statements or comment them out. 
 
 ### Bug 18: Condition has no effect 
 
