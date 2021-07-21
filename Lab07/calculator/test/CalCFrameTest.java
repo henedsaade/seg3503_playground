@@ -11,6 +11,7 @@ class CalcFrameTest {
   	assertEquals(1, 1);
   }
 
+/*
 	private void setClearscreen(CalCFrame cframe, boolean val) {
 		try {
 			Field f = cframe.getClass().getDeclaredField("clearscreen");
@@ -30,4 +31,5 @@ class CalcFrameTest {
 			e.printStackTrace();
 		}
 	}
+	*/
 }
